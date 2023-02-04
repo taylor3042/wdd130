@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200&display=swap');
+
+
+:root
+{
+    --heading-font: "Sofia Sans Semi Condensed";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+div#content 
+{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a
+{
+    text-align: center;
+    color: #023047;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+div#hero
+{
+    text-align: center;
+}
+
+#hero-img
+{
+ width: 100%;   
+}
+
+#hero-msg h1
+{
+    font-size: 3.5em;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+#hero-msg h4
+{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+div.button-box
+{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+main
+{
+    text-align: center;
+}
+
+div#background {
+    height: 725px;
+}
+
+body 
+{
+    background-color: white;
+}
+
+header
+{
+    background-color: #219EBC;
+    font-family: var(--paragraph-font);
+    padding: 10px 10px;
+}
+
+nav a:hover
+{
+    background-color: #8ECAE6 ;
+    color: #023047;
+    
+}
+
+.join
+{
+    background-color: #8ECAE6 ;
+    color: #023047;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.join:hover
+{
+    background-color: #219EBC ;
+    color: #023047;
+}
+
+.book
+{
+    background-color: #8ECAE6 ;
+    color: #023047;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.book:hover
+{
+    background-color: #219EBC ;
+    color: #023047;
+}
+
+#background
+{
+    background-color: #7D4600;
+    margin-bottom: 75px;
+}
+
+.msg
+{
+ background-color: aquamarine;
+ padding-bottom: 20px;
+}
+
+footer 
+{
+   background-color: #219EBC;
+   text-align: left;
+   padding-bottom: 15px;
+   padding-left: 4px;
+   padding-top: 5px;
+   margin-top: 20px
+}
+
+footer a 
+{
+   background-color: aquamarine;
+   color: #023047;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+footer b 
+{
+   color: #023047;
+    text-align: center;
+    font-family: var(--heading-font);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px;
+}
+
+footer b:hover
+{
+   background-color: #7D4600;
+   color: aquamarine;
+   text-decoration: underline;
+}
+
+footer a:hover
+{
+   background-color: #7D4600;
+}
+
+.icon {
+    width: 80px;
+}
+
+.social
+{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.logo
+{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+}
+
+.card-img
+{
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+h2
+{
+    font-family: var(--heading-font);
+}
